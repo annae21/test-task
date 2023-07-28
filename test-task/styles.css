@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    background-color: #0C2220;
+    color: #E5E5E5;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-1 {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+
+@media (max-width: 1272px) {
+    .card-1 {
+        text-align: center
+        display: block;
+    }
+}
+
+.info-text p{
+    color: #9D9DAB;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 135%; /* 27px */
+    letter-spacing: 0.15px;
+    text-align: center;
+    width: 725px;
+}
+
+.info-text h1 {
+    text-align: center;
+    width: 730px;
+    font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -1px;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+}
+
+.bg-semi-green {
+    background: #182D2B;
+}
+
+.card-1 {
+    width: 865px;
+    height: 145px;
+    /* padding-left: 48px;
+    padding-top: 48px; */
+    margin-left: 288px;
+    margin-right: 287px;
+    border-radius: 36px;
+}
+
+.card-1-h2{
+    padding-left: 48px;
+    padding-top: 48px;
+
+}
+
+.card-1 p{
+    color: #9D9DAB;
+    padding-left: 48px;
+    padding-top: 6px;
+
+}
+
+.card-1 input {
+    background: #E4A84D;
+    width: 157px;
+    height: 64px;
+    color: #1B2D3E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 16px;
+    /* padding-top: 40px; */
+}
+
