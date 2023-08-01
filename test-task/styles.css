@@ -51,11 +51,10 @@ body {
 }
 
 .bg-semi-green {
-    margin-left: 288px;
-    margin-right: 287px;
+    /* margin-left: 288px;
+    margin-right: 287px; */
     margin-top: 24px;
-    /* width: 865px;  */
-    /* height: 145px;  */
+    max-width: 800px;
     background: #182D2B;
     display: flex;
     justify-content: space-between; 
@@ -104,6 +103,14 @@ body {
     cursor: pointer;
 }
 
+/* @media (min-width: 768px) {
+    .bg-semi-green {
+        text-align: center
+        width: 100%;
+        justify-content: center;
+    }
+} */
+
 @media screen and (max-width: 768px) {
     .bg-semi-green {
         text-align: center;
@@ -114,7 +121,8 @@ body {
     }
 
     .text-h2, .text-p {
+
         margin: 6px; 
     }
-}
 
+}
