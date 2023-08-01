@@ -1,85 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Careers at andcards | andcards</title>
-    <link href="styles.css" rel="stylesheet"/>
-</head>
-<body>
-    <div class="container">
-        <div class="centered-content">
-            <div class="text-h3">
-                <h1>Open roles</h1>
-            </div>
-            <div class="text-h6">
-                <p>When you apply for a position, please include the cover letter and the resume with a showcase of relevant experiences.</p>
-            </div>
-        </div>
-    </div>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-    <div class="main">
-        <div class="bg-semi-green">
-            <div class="text">
-                <div class="text-h2">
-                    <h2>Customer Happiness Manager</h2>
-                </div>
-                <div class="text-p">
-                    <p>EMEA Office • APAC Office</p>
-                </div>
-            </div>
-            <div class="apply-btn">
-                <input class="btn" type="submit" value="APPLY">
-            </div>
-        </div>
-    </div>
+body {
+    background-color: #0C2220;
+    color: #E5E5E5;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    <div class="main">
-        <div class="bg-semi-green">
-            <div class="text">
-                <div class="text-h2">
-                    <h2>Account Executive</h2>
-                </div>
-                <div class="text-p">
-                    <p>EMEA Office • Remote</p>
-                </div>
-            </div>
-            <div class="apply-btn">
-                <input class="btn" type="submit" value="APPLY">
-            </div>
-        </div>
-    </div>
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    <div class="main">
-        <div class="bg-semi-green">
-            <div class="text">
-                <div class="text-h2">
-                    <h2>Graphic Designer</h2>
-                </div>
-                <div class="text-p">
-                    <p>Remote</p>
-                </div>
-            </div>
-            <div class="apply-btn">
-                <input class="btn" type="submit" value="APPLY">
-            </div>
-        </div>
-    </div>
+.centered-content {
+    text-align: center;
+}
 
-    <div class="main">
-        <div class="bg-semi-green">
-            <div class="text">
-                <div class="text-h2">
-                    <h2>Software Engineer</h2>
-                </div>
-                <div class="text-p">
-                    <p>Remote</p>
-                </div>
-            </div>
-            <div class="apply-btn">
-                <input class="btn" type="submit" value="APPLY">
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+.text-h3 h1 {
+    margin-top: 66px;
+    color: #E5E5E5;
+    text-align: center;
+    max-width: 730px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+.text-h6 p {
+    margin-top: 24px;
+    margin-bottom: 66px;
+    color: #9D9DAB;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 135%;
+    letter-spacing: 0.15px;
+    text-align: center;
+    max-width: 770px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-semi-green {
+    margin-left: 288px;
+    margin-right: 287px;
+    margin-top: 24px;
+    width: 865px; 
+    height: 145px; 
+    background: #182D2B;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-radius: 36px;
+    flex: 1;
+    padding: 0 48px; /* Отступы по сторонам */
+}
+
+
+.text-h2 h2 {
+    color: #E5E5E5;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 0.15px;
+}
+
+.text-p p {
+    color: #9D9DAB;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.15px;
+}
+
+.bg-semi-green input {
+    background: #E4A84D;
+    width: 157px;
+    height: 64px;
+    color: #1B2D3E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+/* @media (min-width: 768px) {
+    .bg-semi-green {
+        text-align: center
+        width: 100%;
+        justify-content: center;
+    }
+} */
 
