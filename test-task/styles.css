@@ -54,15 +54,15 @@ body {
     margin-left: 288px;
     margin-right: 287px;
     margin-top: 24px;
-    width: 865px; 
-    height: 145px; 
+    /* width: 865px;  */
+    /* height: 145px;  */
     background: #182D2B;
     display: flex;
     justify-content: space-between; 
     align-items: center;
     border-radius: 36px;
     flex: 1;
-    padding: 0 48px; /* Отступы по сторонам */
+    padding: 48px; /* Отступы по сторонам */
 }
 
 
@@ -104,14 +104,17 @@ body {
     cursor: pointer;
 }
 
-/* @media (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .bg-semi-green {
-        text-align: center
-        width: 100%;
-        justify-content: center;
+        text-align: center;
+        width: 100%; 
+        justify-content: center; 
+        align-items: center; 
+        flex-direction:column;
     }
-} */
 
-@media screen and (min-width: 768px){
+    .text-h2, .text-p {
+        margin: 6px; 
+    }
 }
 
